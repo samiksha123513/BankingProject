@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20855" started-at="2020-12-28T07:01:45Z" finished-at="2020-12-28T07:02:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20855" started-at="2020-12-28T07:01:45Z" finished-at="2020-12-28T07:02:06Z">
+      <class name="banking.project.Test.TC_001">
+        <test-method status="PASS" signature="init()[pri:0, instance:banking.project.Test.TC_001@d5c04e]" name="init" is-config="true" duration-ms="12" started-at="2020-12-28T12:31:45Z" finished-at="2020-12-28T12:31:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:banking.project.Test.TC_001@d5c04e]" name="Setup" is-config="true" duration-ms="15822" started-at="2020-12-28T12:31:45Z" finished-at="2020-12-28T12:32:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="VisitTest()[pri:0, instance:banking.project.Test.TC_001@d5c04e]" name="VisitTest" duration-ms="5007" started-at="2020-12-28T12:32:01Z" finished-at="2020-12-28T12:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VisitTest -->
+      </class> <!-- banking.project.Test.TC_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
