@@ -1,5 +1,6 @@
 package banking.project.Page;
 
-public class Login {
+public class Login 
+{
 
 }
