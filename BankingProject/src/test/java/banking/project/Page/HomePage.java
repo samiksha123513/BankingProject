@@ -24,6 +24,9 @@ public class HomePage
 	@FindBy(name="password")
 	WebElement Password;
 	
+	@FindBy(name="btnLogin")
+	WebElement Submit;
+	
 	public HomePage(WebDriver driver)
 	{
 		this.Driver=driver;
@@ -40,5 +43,6 @@ public class HomePage
 	{
 		UserID.sendKeys(userid);
 		Password.sendKeys(password);
+		Submit.click();
 	}
 }
